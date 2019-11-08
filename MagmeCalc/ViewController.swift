@@ -23,50 +23,19 @@ class ViewController: UIViewController {
     
     @IBAction func sumAction(_ sender: Any) {
         
-        if  let firstNumber = Int(numberOne.text!){
-            if let  secondNumber = Int(numberTwo.text!){
-                
-                let sumPlus = firstNumber + secondNumber
-                result.text = String(sumPlus)
-            }
-            
-        }
-        
     }
     
     
     @IBAction func minusAction(_ sender: Any) {
-       if  let firstNumber = Int(numberOne.text!){
-           if let  secondNumber = Int(numberTwo.text!){
-               
-               let sumPlus = firstNumber - secondNumber
-               result.text = String(sumPlus)
-           }
-           
-       }
+      
        
     }
     
     @IBAction func multiplyAction(_ sender: Any) {
-       if  let firstNumber = Int(numberOne.text!){
-           if let  secondNumber = Int(numberTwo.text!){
-               
-               let sumPlus = firstNumber * secondNumber
-               result.text = String(sumPlus)
-           }
-           
-       }
+       
        
     }
     @IBAction func divideAction(_ sender: Any) {
-        if  let firstNumber = Int(numberOne.text!){
-            if let  secondNumber = Int(numberTwo.text!){
-                
-                let sumPlus = firstNumber / secondNumber
-                result.text = String(sumPlus)
-            }
-            
-        }
         
     }
     
